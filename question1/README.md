@@ -10,5 +10,5 @@ Whenever the value in input box in column1, or the dropdown in column2 changes, 
 
 
 
-## run
-1. open index.html file in the browser
+## How to run
+open `index.html` file in the browser

@@ -9,7 +9,7 @@ NOTE
   The app could created with any framework but Angular is preferred
 
 
-## Pre run
+## How to run
 1. run command `yarn install`
 2. run command `yarn start`
 
