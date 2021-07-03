@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Type Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="column left">
+          <input type="text" id="number" name="number"><br><br>
+        </div>
+        <div class="column center">
+          <select class="selectType" name="type" id="type">
+            <option value="prime">isPrime</option>
+            <option value="fibonacci">IsFibonacci</option>
+          </select>
+        </div>
+        <div class="column right">
+          <p class="result" id='result'>true</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
